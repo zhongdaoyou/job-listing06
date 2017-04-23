@@ -19,11 +19,41 @@
  @import "bootstrap";
  @import "font-awesome";
 
+ //--------Index-----------
+
+ .jumbotron {
+  background-image:url('http://a2.qpic.cn/psb?/6d145c72-1696-4ee5-8d81-ba55a6860ff7/BDwZz2XapOq2G3mg8cKqInAGV9E9Ozoelv6wtI..fsc!/b/dGkBAAAAAAAA&bo=VAY4BKAPawoRCZ4!&rf=viewer_4');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+  top: 12px;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: black;
+}
+
  //---------Navbar---------
 
 .navbar-default {
-    background-color: #212121;
-    border-color: #212121;
+    background-color: #233140;
+    border-color: #233140;
     margin-bottom: 0;
     border-radius: 0;
 }
@@ -60,8 +90,8 @@
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-    background-color: #FFE0B2;
-    color: #212121;
+    background-color: #233140;
+    color: #233140;
 }
 
 //---------Box---------
